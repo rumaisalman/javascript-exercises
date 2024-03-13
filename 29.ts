@@ -1,4 +1,3 @@
-
 let favorite_fruits: string[] = ["Apple", "Mango", "Strawberry"];
 //1
 if (favorite_fruits.includes("Apple")) {
