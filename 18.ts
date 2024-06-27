@@ -19,24 +19,23 @@
 
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 
-const Favplaces = ["Paris", "Switzerland", "Turkey", "Korea", "Canada"];
-const places = [...Favplaces];
-console.log(Favplaces);
-places.sort();
-console.log(places);
-places.reverse();
-console.log(places);
-Favplaces.reverse();
-console.log(Favplaces);
-Favplaces.reverse();
-console.log(Favplaces);
-Favplaces.reverse();
-console.log(Favplaces);
-Favplaces.reverse();
-console.log(Favplaces);
-Favplaces.sort();
-console.log(Favplaces);
-Favplaces.reverse();
-console.log(Favplaces);
-Favplaces.sort();
-console.log(Favplaces);
+let favPlaces = ["Paris", "Saudi Arabia", "Turkey", "Korea", "Switzerland"]
+console.log(favPlaces)
+
+console.log([...favPlaces.sort()]);
+console.log(favPlaces)
+
+console.log([...favPlaces.reverse()]);
+console.log(favPlaces)
+
+favPlaces.reverse();
+console.log(favPlaces);
+
+favPlaces.reverse();
+console.log(favPlaces);
+
+favPlaces.sort();
+console.log(favPlaces);
+
+favPlaces.reverse();
+console.log(favPlaces);
